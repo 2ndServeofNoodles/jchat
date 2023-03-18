@@ -1,0 +1,74 @@
+/* Chat container */
+.jchat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-height: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat header */
+.jchat-header {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Chat messages container */
+.jchat-messages {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Chat message */
+.jchat-message {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.jchat-message-user {
+    font-weight: bold;
+}
+
+.jchat-message-bot {
+    font-weight: normal;
+    color: #777;
+}
+
+/* Chat input container */
+.jchat-input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Chat input field */
+.jchat-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Chat send button */
+.jchat-send-btn {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
