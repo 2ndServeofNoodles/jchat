@@ -1,0 +1,65 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Chat container */
+.jchat-chat-container {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat messages area */
+.jchat-messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* Individual chat message */
+.jchat-message {
+  margin-bottom: 10px;
+}
+
+.jchat-message .jchat-user {
+  font-weight: bold;
+}
+
+.jchat-message .jchat-text {
+  margin-left: 5px;
+}
+
+/* Input form */
+.jchat-input-form {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.jchat-input-form input[type="text"] {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.jchat-input-form button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.jchat-input-form button:hover {
+  background-color: #0095dd;
+}
